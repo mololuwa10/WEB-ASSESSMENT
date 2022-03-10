@@ -8,10 +8,26 @@ body
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "nav"
-                         "header"
+    grid-template-areas:
+                         "nav"
                         "main"
                         "footer";
+}
+
+nav
+{
+    background-color: yellow;
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    list-style: none;
 }
 
 li
@@ -21,7 +37,16 @@ li
 
 .nav1
 {
-    height: 30vh;
+    height: 15vh;
+    grid-area: auto;
     border: 1px solid red;
-    background-image: url(images\download (6).jpg);
+    background-image: url(mountain2.jpg);
+    background-size: cover;
+    background-position: 0 -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px #ff0000;
 }
