@@ -18,3 +18,10 @@ li
 {
     display: block;
 }
+
+.nav1
+{
+    height: 30vh;
+    border: 1px solid red;
+    background-image: url(images\download (6).jpg);
+}
