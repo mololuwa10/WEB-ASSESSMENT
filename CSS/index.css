@@ -16,10 +16,11 @@ body
 
 nav
 {
-    background-color: yellow;
+    background-color: gray;
     grid-area: nav;
     display: flex;
     justify-content: space-between;
+    height: 5vh;
 }
 
 nav ul
@@ -37,16 +38,16 @@ li
 
 .nav1
 {
-    height: 15vh;
+    height: 30vh;
     grid-area: auto;
     border: 1px solid red;
-    background-image: url(mountain2.jpg);
     background-size: cover;
     background-position: 0 -80px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: 'Sansita Swashed', cursive;
     font-size: 3em;
     text-shadow: 2px 2px #ff0000;
 }
