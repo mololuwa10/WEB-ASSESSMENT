@@ -35,6 +35,10 @@ li
 {
     display: block;
 }
+ul li:hover
+{
+    border: 0.2em solid white;
+}
 
 .nav1
 {
