@@ -8,7 +8,7 @@ body
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas:
+    grid-template-areas: "header"
                          "nav"
                         "main"
                         "footer";
@@ -54,9 +54,11 @@ li
 
 main
 {
-    background-color: darkblue;
+    background-color: black;
     color: white;
     grid-area: main;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Supermercado One', cursive;
 
     display: grid;
     grid-template-columns: 30% 70%;
