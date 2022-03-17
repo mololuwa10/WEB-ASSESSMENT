@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    display: block;
+    margin-top: -4.5%;
+}
+
+header
+{
+    
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}   
+.nav1
+{
+    background-size: cover;
+    background-position: 0 -60px;
+    display: flex;
+    height: 10vh;
+    grid-area: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2em;
+    text-shadow: 2px 2px #ff0000;
+}
+nav{
+    background-color: yellow;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+.shownav
+{
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+    border-radius: 0.1em;
+    margin-left: -5%;
+    margin-bottom: 5%;
+}
+
+.shownav::before
+{
+  content: '';
+  position: absolute;
+  width: 1.25em;
+  margin-top: 0.1em;
+  border-top: 0.2em solid #fff;
+}
+
+#clicked .on {display: block;}
+#clicked .off {display: none;}
+
+#clicked:target .on {display: none;}
+#clicked:target .off{display: block;}
+
+#clicked:target .sec1 {display: block;}
