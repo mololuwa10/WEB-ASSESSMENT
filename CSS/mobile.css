@@ -9,18 +9,21 @@ body
     margin-top: -4.5%;
 }
 
+header h2 {
+    grid-area: headerh2;
+}
+
 header
 {
     display: grid;
     grid-template-columns: 90% 10%;
-    grid-area: "h2"
-                "shownav";
+    grid-template-areas: "headerh2 shownav";
     background-color: gray;
     color: white;
     padding: 20px;
     font-weight: bold;
     font-size: 18px;
-}   
+} 
 .nav1
 {
     background-size: cover;
@@ -54,6 +57,7 @@ nav{
     border-radius: 0.1em;
     margin-left: -5%;
     margin-bottom: 5%;
+    grid-area: shownav;
 }
 
 .shownav::before
@@ -63,7 +67,7 @@ nav{
   width: 1.25em;
   margin-top: 0.3em;
   border-top: 0.2em solid #fff;
-  grid-area: shownav;
+  
 }
 
 #clicked .on {display: block;}
