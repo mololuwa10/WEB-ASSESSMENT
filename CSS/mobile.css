@@ -11,7 +11,10 @@ body
 
 header
 {
-    
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-area: "h2"
+                "shownav";
     background-color: gray;
     color: white;
     padding: 20px;
@@ -58,8 +61,9 @@ nav{
   content: '';
   position: absolute;
   width: 1.25em;
-  margin-top: 0.1em;
+  margin-top: 0.3em;
   border-top: 0.2em solid #fff;
+  grid-area: shownav;
 }
 
 #clicked .on {display: block;}
