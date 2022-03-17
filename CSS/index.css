@@ -21,6 +21,7 @@ nav
     display: flex;
     justify-content: space-between;
     height: 5vh;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 nav ul
