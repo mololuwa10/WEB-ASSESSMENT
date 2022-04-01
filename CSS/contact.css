@@ -40,3 +40,21 @@ ul li:hover
 {
     border: 0.2em solid white;
 }
+
+section
+{
+    background-color: lightslategrey;
+    line-height: 2.0;
+}
+
+section h3
+{
+    margin-left: 42%;
+    font-size: 50px;
+}
+
+section h4
+{
+    margin-left: 41.5%;
+    font-size: 25px;
+}
