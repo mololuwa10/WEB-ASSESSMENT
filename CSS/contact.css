@@ -47,14 +47,27 @@ section
     line-height: 2.0;
 }
 
+section h2
+{
+    margin-left: 40%;
+    font-size: 50px;
+}
+
 section h3
 {
-    margin-left: 42%;
-    font-size: 50px;
+    margin-left: 38.5%;
+    font-size: 30px;
 }
 
 section h4
 {
-    margin-left: 41.5%;
-    font-size: 25px;
+    margin-left: 42%;
+}
+
+form {
+    display: grid;
+    width: 400px;
+    grid-template-columns: auto;
+    align-items: center;
+    grid-gap: 0.5em;
 }
