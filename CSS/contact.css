@@ -71,3 +71,20 @@ form {
     align-items: center;
     grid-gap: 0.5em;
 }
+
+.myInput {
+    border: 1px solid gray;
+    border-radius: 2em;
+}
+
+.myInput2
+{
+    position: absolute;
+    min-width: 22%;
+    height: 20%;
+    top:0%;
+    right:0%;
+    z-index:10;
+    background-color:#CCC;
+    border: 1px solid grey;
+}
