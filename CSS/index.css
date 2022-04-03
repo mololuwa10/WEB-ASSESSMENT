@@ -59,7 +59,8 @@ ul li:hover
 
 main
 {
-    background-color: black;
+    
+    /*background-color: black;*/
     color: white;
     grid-area: main;
     font-family: 'Sansita Swashed', cursive;
