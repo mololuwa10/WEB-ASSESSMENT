@@ -76,8 +76,8 @@ main img
     width: 100%;
     border-radius: 1em;
     border: 0.2em solid white;
+    height: 90%;
 }
-
 main img:hover
 {
     border: 0.2em solid red;
@@ -87,9 +87,24 @@ main section
 {
     margin: 2em;
 }
+.sec3
+{
+    height: 30%;
+} 
+.sec4
+{
+    height: 27%;
+} 
+.sec5
+{
+    height: 30%;
+} 
 
 footer
 {
     text-align: center;
     display: grid;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+    margin-top: 5%;
 }
