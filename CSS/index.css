@@ -91,4 +91,5 @@ main section
 footer
 {
     text-align: center;
+    display: grid;
 }

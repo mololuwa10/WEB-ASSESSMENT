@@ -40,3 +40,12 @@ ul li:hover
 {
     border: 0.2em solid white;
 }
+section
+{
+    color: white;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
