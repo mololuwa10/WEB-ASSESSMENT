@@ -1,9 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 section {
     color: white;
 }
 
-p {
+.p2 {
     color: white;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+}
+
+.column {
+    float: left;
+    width: 49%;
+    padding: 10px;
+    height: 400px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    padding: 40px;
 }
