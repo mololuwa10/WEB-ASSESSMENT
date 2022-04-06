@@ -36,9 +36,18 @@ li
 {
     display: block;
 }
+
+ul li a
+{
+    text-decoration: none;
+}
 ul li:hover
 {
-    border: 0.2em solid white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: block;  
+    background-color: white;
+    height: 22px;
 }
 section
 {
