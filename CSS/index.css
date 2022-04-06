@@ -22,6 +22,7 @@ nav
     justify-content: space-between;
     height: 5vh;
     font-family: 'Sansita Swashed', cursive;
+    padding-top: 10px;
 }
 
 nav ul
@@ -31,17 +32,23 @@ nav ul
     width: 30vw;
     list-style: none;
 }
-
-li
+ul li a
 {
-    display: block;
+    text-decoration: none;
 }
+
 ul li:hover
 {
-    border: 0.2em solid white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: block;  
+    background-color: white;
+    height: 22px;
+    
+
 }
 
-.nav1
+.sec1
 {
     height: 30vh;
     grid-area: auto;
@@ -99,12 +106,17 @@ main section
 {
     height: 30%;
 } 
+.sec2
+{
+    height: 160px;
+}
 
 footer
 {
     text-align: center;
-    display: grid;
+    /* display: grid; */
     font-family: 'Sansita Swashed', cursive;
     font-size: 30px;
-    margin-top: 5%;
+    padding: 30px;
+    grid-area: footer;
 }
