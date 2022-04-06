@@ -105,3 +105,22 @@ form {
     background-color:#CCC;
     border: 1px solid grey;
 }
+
+input[type = email], input[type = text], textarea
+{
+    display: inline-block;
+    padding: 10px;
+}
+#submit
+{
+    padding: 12px;
+    background-color: #613A3A;
+    color: white;
+    font-size: 15px;
+}
+
+#submit:hover
+{
+    border: 3px solid white;
+    border-radius: 5px;
+}
