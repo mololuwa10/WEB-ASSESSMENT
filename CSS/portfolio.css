@@ -26,3 +26,8 @@ section {
     display: flex;
     padding: 40px;
 }
+
+.column:hover
+{
+    border: 3px solid white;
+}
