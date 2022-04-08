@@ -94,7 +94,12 @@ footer {
     display: block;
 }
 
-
+main img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
 .ham {
     width: 35px;
     height: 5px;
