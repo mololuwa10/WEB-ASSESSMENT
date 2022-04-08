@@ -32,11 +32,11 @@ main {
 }
 
 .sec1 {
-    height: 17vh;
+    height: 13vh;
     grid-area: auto;
     border: 1px solid red;
     background-size: cover;
-    background-position: 0px 0px;
+    background-position: 0px 184px;
     display: flex;
     justify-content: center;
     color: white;
@@ -90,7 +90,7 @@ footer {
     margin-left: 350px;
 }
 
-#clicked:target .sec1 {
+#clicked:target ul {
     display: block;
 }
 
@@ -107,4 +107,8 @@ main img
     background-color: white;
     margin: 6px 0;
     margin-left: 350px;
+}
+
+nav {
+    display: none;
 }
