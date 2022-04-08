@@ -1,19 +1,17 @@
-body
-{
+body {
     display: grid;
     margin-top: -0.5%;
 }
 
-header
-{
+header {
     background-image: url(../background.jpg);
     color: white;
     padding: 12px;
     font-weight: bold;
     font-size: 18px;
 }
-.ul
-{
+
+.ul {
     background-color: yellow;
     display: none;
     position: fixed;
@@ -22,12 +20,12 @@ header
     width: 50%;
     height: 100vh;
 }
-.sec2
-{
+
+.sec2 {
     border: 12%;
 }
-main
-{
+
+main {
     background-color: purple;
     color: white;
     padding-bottom: 171%;
@@ -46,12 +44,13 @@ main
     font-size: 2em;
     text-shadow: 2px 2px #ff0000;
 }
-footer
-{
-    background-color: darkgreen;
-    color: white;
+
+footer {
+    background-color: white;
+    color: black;
 }
-.shownav
+
+/* .shownav
 {
     height: 0.8em;
     width: 1.25em;
@@ -71,12 +70,35 @@ footer
   width: 1.25em;
   margin-top: 0.3em;
   border-top: 0.2em solid #fff;
+} */
+
+#clicked .on {
+    display: block;
 }
 
-#clicked .on {display: block;}
-#clicked .off {display: none;}
+#clicked .off {
+    display: none;
+}
 
-#clicked:target .on {display: none;}
-#clicked:target .off{display: block;}
+#clicked:target .on {
+    display: none;
+}
 
-#clicked:target .sec1 {display: block;}
+#clicked:target .off {
+    display: block;
+    margin: 6px 0;
+    margin-left: 350px;
+}
+
+#clicked:target .sec1 {
+    display: block;
+}
+
+
+.ham {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    margin-left: 350px;
+}
