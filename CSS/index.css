@@ -1,17 +1,4 @@
-.sec1 {
-    height: 30vh;
-    grid-area: auto;
-    border: 1px solid red;
-    background-size: cover;
-    background-position: 0 -80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 3em;
-    text-shadow: 2px 2px #ff0000;
-}
+
 
 main {
 

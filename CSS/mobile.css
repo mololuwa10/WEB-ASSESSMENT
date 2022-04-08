@@ -1,44 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 body
 {
-    display: block;
-    margin-top: -4.5%;
-}
-
-header h2 {
-    grid-area: headerh2;
+    display: grid;
+    margin-top: -0.5%;
 }
 
 header
 {
-    display: grid;
-    grid-template-columns: 90% 10%;
-    grid-template-areas: "headerh2 shownav";
-    background-color: gray;
+    background-image: url(../background.jpg);
     color: white;
-    padding: 20px;
+    padding: 12px;
     font-weight: bold;
     font-size: 18px;
-} 
-.nav1
-{
-    background-size: cover;
-    background-position: 0 -60px;
-    display: flex;
-    height: 10vh;
-    grid-area: auto;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 2em;
-    text-shadow: 2px 2px #ff0000;
 }
-nav{
+.ul
+{
     background-color: yellow;
     display: none;
     position: fixed;
@@ -46,6 +21,35 @@ nav{
     left: 50%;
     width: 50%;
     height: 100vh;
+}
+.sec2
+{
+    border: 12%;
+}
+main
+{
+    background-color: purple;
+    color: white;
+    padding-bottom: 171%;
+}
+
+.sec1 {
+    height: 17vh;
+    grid-area: auto;
+    border: 1px solid red;
+    background-size: cover;
+    background-position: 0px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2em;
+    text-shadow: 2px 2px #ff0000;
+}
+footer
+{
+    background-color: darkgreen;
+    color: white;
 }
 .shownav
 {
@@ -55,7 +59,7 @@ nav{
     border-top: 0.2em solid white;
     border-bottom: 0.2em solid white;
     border-radius: 0.1em;
-    margin-left: -5%;
+    margin-left: -2%;
     margin-bottom: 5%;
     grid-area: shownav;
 }
@@ -67,7 +71,6 @@ nav{
   width: 1.25em;
   margin-top: 0.3em;
   border-top: 0.2em solid #fff;
-  
 }
 
 #clicked .on {display: block;}
