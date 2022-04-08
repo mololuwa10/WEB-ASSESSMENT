@@ -44,8 +44,9 @@ ul li:hover
     display: block;  
     background-color: white;
     height: 22px;
-}
+    
 
+}
 .sec1 {
     height: 30vh;
     grid-area: auto;
