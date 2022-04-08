@@ -1,60 +1,76 @@
-*{
-    padding: 0;
-    margin: 0;
+a+h2 {
+    color: white;
 }
 
-body
-{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas: "header"
-                         "nav"
-                        "main"
-                        "footer";
+main {
+    background-image: url("../background.jpg");
 }
 
-nav
-{
-    background-color: gray;
-    grid-area: nav;
-    display: flex;
-    justify-content: space-between;
-    height: 5vh;
+
+.contact {
+    background-color: lightslategrey;
+    line-height: 2.0;
     font-family: 'Sansita Swashed', cursive;
 }
 
-nav ul
-{
-    display: flex;
-    justify-content: space-around;
-    width: 30vw;
-    list-style: none;
-}
-
-li
-{
-    display: block;
-}
-ul li:hover
-{
-    border: 0.2em solid white;
-}
-
-section
-{
-    background-color: lightslategrey;
-    line-height: 2.0;
-}
-
-section h3
-{
-    margin-left: 42%;
+.contact h2 {
+    margin-left: 40%;
     font-size: 50px;
 }
 
-section h4
-{
-    margin-left: 41.5%;
-    font-size: 25px;
+.contact h3 {
+    margin-left: 38.5%;
+    font-size: 30px;
+}
+
+.contact h4 {
+    margin-left: 42%;
+}
+
+form {
+    display: grid;
+    width: 400px;
+    grid-template-columns: auto;
+    align-items: center;
+    grid-gap: 0.5em;
+    color: white;
+    margin-left: 36%;
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.myInput {
+    border: 1px solid gray;
+    border-radius: 2em;
+}
+
+.myInput2 {
+    position: absolute;
+    min-width: 22%;
+    height: 20%;
+    top: 0%;
+    right: 0%;
+    z-index: 10;
+    background-color: #CCC;
+    border: 1px solid grey;
+}
+
+input[type=email],
+input[type=text],
+textarea {
+    display: inline-block;
+    padding: 10px;
+}
+
+#submit {
+    padding: 12px;
+    background-color: #613A3A;
+    color: white;
+    font-size: 15px;
+}
+
+#submit:hover {
+    border: 3px solid white;
+    border-radius: 5px;
 }
