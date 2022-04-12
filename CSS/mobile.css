@@ -6,7 +6,7 @@ body {
 header {
     background-image: url(../background.jpg);
     color: white;
-    padding: 12px;
+    /* padding: 12px; */
     font-weight: bold;
     font-size: 18px;
 }
@@ -110,10 +110,136 @@ main img {
     margin-left: 350px;
 }
 
-nav {
+/* nav {
     display: none;
-}
+} */
 
 .secondh2 {
     margin-top: 7%;
+}
+
+.list {
+    display: block;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
+li + a {
+    display: block;
+    justify-content: space-around;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.p2 {
+    color: white;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+}
+
+.column {
+    float: left;
+    width: 110%;
+    padding: 13px;
+    height: 412px;
+    border-radius: 27px;
+    margin: auto;
+    margin-top: -5%;
+    margin-left: -5%;
+}
+
+.row {
+    display: grid;
+    grid-template-rows: 54%;
+    padding: 40px;
+    grid-area: auto;
+}
+
+.column:hover
+{
+    border: 3px solid white;
+}
+
+a+h2 {
+    color: white;
+}
+
+main {
+    background-image: url("../background.jpg");
+}
+
+
+.contact {
+    background-color: lightslategrey;
+    line-height: 2.0;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.contact h2 {
+    margin-left: 17%;
+    font-size: 50px;
+}
+
+.contact h3 {
+    margin-left: 11.5%;
+    font-size: 30px;
+}
+
+.contact h4 {
+    margin-left: 21%;
+}
+
+form {
+    display: grid;
+    width: 352px;
+    grid-template-columns: auto;
+    align-items: center;
+    grid-gap: 0.5em;
+    color: white;
+    margin-left: 7%;
+    margin-top: 3%;
+    font-size: 15px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.myInput {
+    border: 1px solid gray;
+    border-radius: 2em;
+}
+
+.myInput2 {
+    position: absolute;
+    min-width: 22%;
+    height: 20%;
+    top: 0%;
+    right: 0%;
+    z-index: 10;
+    background-color: #CCC;
+    border: 1px solid grey;
+}
+
+input[type=email],
+input[type=text],
+textarea {
+    display: inline-block;
+    padding: 10px;
+}
+
+#submit {
+    padding: 12px;
+    background-color: #613A3A;
+    color: white;
+    font-size: 15px;
+}
+
+#submit:hover {
+    border: 3px solid white;
+    border-radius: 5px;
 }
