@@ -122,7 +122,7 @@ main img {
     margin-top: 7%;
 }
 
-.list {
+.lower-nav {
     display: block;
     background-color: yellow;
     position: fixed;
