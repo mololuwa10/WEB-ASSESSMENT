@@ -25,7 +25,7 @@ h2
     margin: auto;
 }
 
-.row {
+.row1 {
     display: grid;
     grid-template-rows: 33.5% 36%;
     padding: 40px;
