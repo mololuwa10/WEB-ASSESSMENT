@@ -162,6 +162,14 @@ li + a {
     grid-area: auto;
 }
 
+.row1
+{
+    display: grid;
+    grid-template-rows: 36% 36%;
+    padding: 40px;
+    grid-area: auto;
+}
+
 .column:hover
 {
     border: 3px solid white;
