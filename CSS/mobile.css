@@ -1,3 +1,7 @@
+/* * {
+    box-sizing: border-box;
+} */
+
 body {
     display: grid;
     margin-top: -0.5%;
@@ -118,7 +122,7 @@ main img {
     margin-top: 7%;
 }
 
-.list {
+.lower-nav {
     display: block;
     background-color: yellow;
     position: fixed;
@@ -128,13 +132,9 @@ main img {
     height: 100vh;
 }
 
-li + a {
+li+a {
     display: block;
     justify-content: space-around;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .p2 {
@@ -146,10 +146,10 @@ li + a {
 
 .column {
     float: left;
-    width: 110%;
+    width: 101%;
     padding: 13px;
     height: 412px;
-    border-radius: 27px;
+    border-radius: 30px;
     margin: auto;
     margin-top: -5%;
     margin-left: -5%;
@@ -162,16 +162,14 @@ li + a {
     grid-area: auto;
 }
 
-.row1
-{
+.row1 {
     display: grid;
     grid-template-rows: 36% 36%;
     padding: 40px;
     grid-area: auto;
 }
 
-.column:hover
-{
+.column:hover {
     border: 3px solid white;
 }
 
@@ -186,22 +184,24 @@ main {
 
 .contact {
     background-color: lightslategrey;
-    line-height: 2.0;
+    line-height: 1.6;
     font-family: 'Sansita Swashed', cursive;
+    color: black;
 }
 
 .contact h2 {
-    margin-left: 17%;
+    margin-left: 13%;
     font-size: 50px;
 }
 
 .contact h3 {
     margin-left: 11.5%;
-    font-size: 30px;
+    font-size: 32px;
 }
 
-.contact h4 {
-    margin-left: 21%;
+.contact .contact-h4 {
+    margin-left: 17%;
+    font-size: 18px;
 }
 
 form {
@@ -250,4 +250,9 @@ textarea {
 #submit:hover {
     border: 3px solid white;
     border-radius: 5px;
+}
+
+h4 {
+    margin-left: 28%;
+    font-size: 28px;
 }
