@@ -158,7 +158,7 @@ li+a {
     float: left;
     width: 101%;
     padding: 13px;
-    height: 430px;
+    height: 678px;
     border-radius: 30px;
     margin: auto;
     margin-top: -5%;
@@ -266,4 +266,13 @@ h4 {
     margin-left: 28%;
     font-size: 28px;
     font-family: 'Sansita Swashed', cursive;
+}
+.programming-img
+{
+    width: 260px;
+    height: 260px;
+    border-radius: 140px;
+    margin-left: 30%;
+    margin-left: 10%;
+    margin-top: 1%;
 }
