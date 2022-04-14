@@ -18,7 +18,7 @@ nav {
     grid-area: nav;
     display: flex;
     justify-content: space-between;
-    height: 5vh;
+    height: 7vh;
     font-family: 'Sansita Swashed', cursive;
     padding-top: 10px;
 }
