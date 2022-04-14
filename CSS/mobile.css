@@ -38,6 +38,11 @@ main {
     font-size: 2em;
     text-shadow: 2px 2px #ff0000;
 }
+.lower-nav li {
+    list-style: none;
+    padding: 10px;
+    font-size: 25px;
+}
 
 footer {
     background-color: white;
@@ -75,6 +80,7 @@ footer {
     height: 100vh;
     padding: 10px;
     padding-bottom: 20px;
+    border-radius: 5px;
 }
 .hamburger {
     margin-left: 81%;
