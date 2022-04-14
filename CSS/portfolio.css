@@ -13,7 +13,7 @@
     float: left;
     width: 49%;
     padding: 10px;
-    height: 400px;
+    height: 522px;
     border-radius: 20px;
     margin: auto;
 }
@@ -23,7 +23,15 @@
     padding: 40px;
 }
 
-.column:hover
-{
+.column:hover {
     border: 3px solid white;
+}
+
+.programming-img {
+
+    width: 260px;
+    height: 260px;
+    border-radius: 140px;
+    margin-left: 30%;
+
 }
