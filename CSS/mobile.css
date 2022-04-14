@@ -53,8 +53,8 @@ footer {
     background-color: white;
     color: black;
 }
-
-/* .shownav
+/* 
+/* .ham
 {
     height: 0.8em;
     width: 1.25em;
@@ -67,14 +67,14 @@ footer {
     grid-area: shownav;
 }
 
-.shownav::before
+.ham::before
 {
   content: '';
   position: absolute;
   width: 1.25em;
   margin-top: 0.3em;
   border-top: 0.2em solid #fff;
-} */
+} */ 
 
 #clicked .on {
     display: block;
@@ -86,6 +86,7 @@ footer {
 
 #clicked:target .on {
     display: none;
+
 }
 
 #clicked:target .off {
@@ -94,7 +95,7 @@ footer {
     margin-left: 350px;
 }
 
-#clicked:target ul {
+#clicked:target nav {
     display: block;
 }
 
@@ -124,7 +125,7 @@ main img {
 
 .lower-nav {
     display: block;
-    background-color: yellow;
+    /* background-color: yellow; */
     position: fixed;
     top: 0;
     left: 50%;
