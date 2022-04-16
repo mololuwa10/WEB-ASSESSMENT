@@ -1,7 +1,7 @@
 /* * {
     box-sizing: border-box;
 } */
-
+/* ============ GENERAL PAGE ==============*/
 body {
     display: grid;
     margin-top: -0.5%;
@@ -51,7 +51,7 @@ footer {
 }
 
 .shownav {
-    height: 0.8em;
+    height: 1.4em;
     width: 1.25em;
     display: block;
     border-top: 0.3em solid white;
@@ -93,7 +93,7 @@ footer {
     display: block;
 }
 
-#showNav .off {
+#showNav .close-tab {
     display: none;
 }
 
@@ -102,7 +102,7 @@ footer {
 
 }
 
-#showNav:target .off {
+#showNav:target .close-tab {
     display: block;
 }
 
@@ -110,21 +110,26 @@ footer {
     display: block;
 }
 
-.off {
+.close-tab {
     display: block;
     font-size: 30px;
     font-weight: 600;
     position: relative;
     padding-left: 6px;
     justify-content: start;
+
 }
 
-main img {
+main {
+    background-image: url("../background.jpg");
+}
+/* =========== INDEX PAGE ===============*/
+.index-main .self-image-main {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin-left: 20%;
-    margin-top: 8%;
+    margin-left: 18%;
+    margin-top: 5%;
 }
 
 /* 
@@ -149,16 +154,25 @@ li+a {
     justify-content: space-around;
 }
 
-.p2 {
+/* ================== PORTFOLIO PAGE ======================*/
+
+.p2-portfolio {
     color: white;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
     font-size: 30px;
 }
 
-.column {
+.row-portfolio {
+    display: grid;
+    grid-template-rows: 54%;
+    padding: 40px;
+    grid-area: auto;
+}
+
+.column-portfolio {
     float: left;
-    width: 101%;
+    width: 110%;
     padding: 13px;
     height: 678px;
     border-radius: 30px;
@@ -167,32 +181,51 @@ li+a {
     margin-left: -5%;
 }
 
-.row {
-    display: grid;
-    grid-template-rows: 54%;
-    padding: 40px;
-    grid-area: auto;
+.programming-img {
+    width: 260px;
+    height: 260px;
+    border-radius: 140px;
+    margin-left: 30%;
+    margin-left: 10%;
+    margin-top: 1%;
 }
 
-.row1 {
+/* ============BLOG PAGE ===============*/
+
+.column-blog {
+    float: left;
+    width: 110%;
+    padding: 13px;
+    height: 678px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: -5%;
+    margin-left: -5%;
+}
+
+.blog-row {
     display: grid;
     grid-template-rows: 36% 36%;
     padding: 40px;
     grid-area: auto;
 }
 
-.column:hover {
+.column-blog:hover {
     border: 3px solid white;
 }
+
+h4 {
+    margin-left: 0%;
+    font-size: 28px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+/* ========== CONTACT PAGE ===================== */
 
 a+h2 {
     color: white;
 }
-
-main {
-    background-image: url("../background.jpg");
-}
-
 
 .contact {
     background-color: lightslategrey;
@@ -212,7 +245,7 @@ main {
 }
 
 .contact .contact-h4 {
-    margin-left: 17%;
+    margin-left: -13%;
     font-size: 18px;
 }
 
@@ -274,21 +307,7 @@ textarea {
     border-radius: 5px;
 }
 
-h4 {
-    margin-left: 28%;
-    font-size: 28px;
-    font-family: 'Sansita Swashed', cursive;
-}
-
-.programming-img {
-    width: 260px;
-    height: 260px;
-    border-radius: 140px;
-    margin-left: 30%;
-    margin-left: 10%;
-    margin-top: 1%;
-}
-
+/* ================ SITE-REPORT =================*/
 .index-img-site-report {
     width: 98%;
     border-radius: 1%;
@@ -308,4 +327,9 @@ h4 {
     border-radius: 1%;
     margin-left: 0%;
     height: 206px;
+}
+
+.portfolio-validation-site-report {
+    width: 97%;
+    height: 170px;
 }
