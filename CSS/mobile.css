@@ -285,3 +285,17 @@ h4 {
     margin-left: 10%;
     margin-top: 1%;
 }
+
+.index-img-site-report {
+    width: 98%;
+    border-radius: 1%;
+    height: 39px;
+    margin-left: 0%;
+}
+
+.index-img2-site-report {
+    width: 99%;
+    border-radius: 1%;
+    height: 206px;
+    margin-left: 0%;
+}
