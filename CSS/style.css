@@ -71,6 +71,33 @@ main {
     background-image: url(../background.jpg);
 }
 
+.index-main {
+
+    /*background-color: black;*/
+    color: white;
+    grid-area: main;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Supermercado One', cursive;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 5em;
+}
+
+.index-main img {
+    width: 393px;
+    height: 393px;
+    border-radius: 50%;
+}
+
+.index-main img:hover {
+    border: 0.2em solid red;
+}
+
+.index-main section {
+    margin: 2em;
+}
+
 footer {
     text-align: center;
     /* display: grid; */
@@ -110,3 +137,8 @@ footer {
     color: white;
     margin: 1%;
 }
+.index-img-site-report {
+    width: 60%;
+    align-content: right;
+}
+
