@@ -154,12 +154,34 @@ li+a {
     justify-content: space-around;
 }
 
-.p2 {
+/* ================== PORTFOLIO PAGE ======================*/
+
+.p2-portfolio {
     color: white;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
     font-size: 30px;
 }
+
+.row-portfolio {
+    display: grid;
+    grid-template-rows: 54%;
+    padding: 40px;
+    grid-area: auto;
+}
+
+.column-portfolio {
+    float: left;
+    width: 110%;
+    padding: 13px;
+    height: 678px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: -5%;
+    margin-left: -5%;
+}
+
+/* ============BLOG PAGE ===============*/
 
 .column-blog {
     float: left;
@@ -171,15 +193,6 @@ li+a {
     margin-top: -5%;
     margin-left: -5%;
 }
-
-.row {
-    display: grid;
-    grid-template-rows: 54%;
-    padding: 40px;
-    grid-area: auto;
-}
-
-/* ============BLOG PAGE ===============*/
 
 .blog-row {
     display: grid;

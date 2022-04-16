@@ -199,3 +199,39 @@ h2
 {
     border: 3px solid white;
 }   
+
+/* ============PORTFOLIO PAGE ===================== */
+
+.p2-portfolio {
+    color: white;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+}
+
+.column-portfolio {
+    float: left;
+    width: 49%;
+    padding: 10px;
+    height: 522px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.row-portfolio {
+    display: flex;
+    padding: 40px;
+}
+
+.column-portfolio:hover {
+    border: 3px solid white;
+}
+
+.programming-img {
+
+    width: 260px;
+    height: 260px;
+    border-radius: 140px;
+    margin-left: 30%;
+
+}
