@@ -181,6 +181,15 @@ li+a {
     margin-left: -5%;
 }
 
+.programming-img {
+    width: 260px;
+    height: 260px;
+    border-radius: 140px;
+    margin-left: 30%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
 /* ============BLOG PAGE ===============*/
 
 .column-blog {
@@ -214,7 +223,7 @@ h4 {
 a+h2 {
     color: white;
 }
-
+/* ========== CONTACT PAGE ===================== */
 
 .contact {
     background-color: lightslategrey;
@@ -296,16 +305,7 @@ textarea {
     border-radius: 5px;
 }
 
-
-.programming-img {
-    width: 260px;
-    height: 260px;
-    border-radius: 140px;
-    margin-left: 30%;
-    margin-left: 10%;
-    margin-top: 1%;
-}
-
+/* ================ SITE-REPORT =================*/
 .index-img-site-report {
     width: 98%;
     border-radius: 1%;
