@@ -45,8 +45,6 @@ ul li:hover {
     display: block;
     background-color: white;
     height: 22px;
-
-
 }
 
 .sec1 {
@@ -190,6 +188,9 @@ footer {
 .blog-validation-site-report {
     align-content: right;
     width: 50%;
+}
+.git-hub {
+    width: 70%;
 }
 /* ========BLOG PAGE =========*/
 
