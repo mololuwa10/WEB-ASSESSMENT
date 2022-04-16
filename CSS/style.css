@@ -12,6 +12,9 @@ body {
         "main"
         "footer";
 }
+.close-tab {
+    display: none;
+}
 
 nav {
     background-color: gray;
@@ -68,6 +71,33 @@ main {
     background-image: url(../background.jpg);
 }
 
+.index-main {
+
+    /*background-color: black;*/
+    color: white;
+    grid-area: main;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Supermercado One', cursive;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 5em;
+}
+
+.index-main img {
+    width: 393px;
+    height: 393px;
+    border-radius: 50%;
+}
+
+.index-main img:hover {
+    border: 0.2em solid red;
+}
+
+.index-main section {
+    margin: 2em;
+}
+
 footer {
     text-align: center;
     /* display: grid; */
@@ -95,4 +125,31 @@ footer {
 
 .list {
     padding-top: 0.3%;
+}
+
+.h2-site-report
+{
+    color: white;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+.p-site-report
+{
+    color: white;
+    margin: 1%;
+    font-size: 20px;
+}
+.index-img-site-report {
+    width: 60%;
+    align-content: right;
+}
+
+.index-img2-site-report {
+    align-content: right;
+    width: 40%;
+}
+.index-validation-site-report {
+    align-content: right;
+    width: 45%;
+    height: 40%;
 }

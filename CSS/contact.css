@@ -40,7 +40,17 @@ form {
     font-family: 'Sansita Swashed', cursive;
 }
 
-.myInput {
+.myInput-help {
+    border: 1px solid gray;
+    border-radius: 2em;
+}
+
+.myInput-name {
+    border: 1px solid gray;
+    border-radius: 2em;
+}
+
+.myInput-email {
     border: 1px solid gray;
     border-radius: 2em;
 }
