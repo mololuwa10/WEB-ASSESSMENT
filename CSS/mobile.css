@@ -220,10 +220,12 @@ h4 {
     font-family: 'Sansita Swashed', cursive;
 }
 
+
+/* ========== CONTACT PAGE ===================== */
+
 a+h2 {
     color: white;
 }
-/* ========== CONTACT PAGE ===================== */
 
 .contact {
     background-color: lightslategrey;
@@ -243,7 +245,7 @@ a+h2 {
 }
 
 .contact .contact-h4 {
-    margin-left: 17%;
+    margin-left: -13%;
     font-size: 18px;
 }
 
