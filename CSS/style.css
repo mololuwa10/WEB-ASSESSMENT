@@ -163,6 +163,21 @@ footer {
     height: 40%;
 }
 
+.portfolio-img-site-report {
+    align-content: right;
+    width: 40%;
+}
+
+.portfolio-validation-site-report {
+    align-content: right;
+    width: 40%;
+}
+
+.contact-img-site-report {
+    align-content: right;
+    width: 40%;
+}
+
 /* ========BLOG PAGE =========*/
 
 * {
