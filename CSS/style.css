@@ -84,13 +84,13 @@ main {
     padding: 5em;
 }
 
-.index-main img {
+.index-main .self-image-main {
     width: 393px;
     height: 393px;
     border-radius: 50%;
 }
 
-.index-main img:hover {
+.index-main .self-image-main:hover {
     border: 0.2em solid red;
 }
 

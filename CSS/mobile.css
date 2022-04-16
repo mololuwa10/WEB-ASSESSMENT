@@ -119,7 +119,7 @@ footer {
     justify-content: start;
 }
 
-main img {
+.index-main .self-image-main {
     width: 250px;
     height: 250px;
     border-radius: 50%;
