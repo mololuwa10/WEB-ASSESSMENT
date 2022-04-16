@@ -1,7 +1,7 @@
 /* * {
     box-sizing: border-box;
 } */
-
+/* ============ GENERAL PAGE ==============*/
 body {
     display: grid;
     margin-top: -0.5%;
@@ -51,7 +51,7 @@ footer {
 }
 
 .shownav {
-    height: 0.8em;
+    height: 1.4em;
     width: 1.25em;
     display: block;
     border-top: 0.3em solid white;
@@ -117,8 +117,13 @@ footer {
     position: relative;
     padding-left: 6px;
     justify-content: start;
+
 }
 
+main {
+    background-image: url("../background.jpg");
+}
+/* =========== INDEX PAGE ===============*/
 .index-main .self-image-main {
     width: 250px;
     height: 250px;
@@ -156,9 +161,9 @@ li+a {
     font-size: 30px;
 }
 
-.column {
+.column-blog {
     float: left;
-    width: 101%;
+    width: 110%;
     padding: 13px;
     height: 678px;
     border-radius: 30px;
@@ -174,23 +179,27 @@ li+a {
     grid-area: auto;
 }
 
-.row1 {
+/* ============BLOG PAGE ===============*/
+
+.blog-row {
     display: grid;
     grid-template-rows: 36% 36%;
     padding: 40px;
     grid-area: auto;
 }
 
-.column:hover {
+.column-blog:hover {
     border: 3px solid white;
+}
+
+h4 {
+    margin-left: 0%;
+    font-size: 28px;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 a+h2 {
     color: white;
-}
-
-main {
-    background-image: url("../background.jpg");
 }
 
 
@@ -274,11 +283,6 @@ textarea {
     border-radius: 5px;
 }
 
-h4 {
-    margin-left: 28%;
-    font-size: 28px;
-    font-family: 'Sansita Swashed', cursive;
-}
 
 .programming-img {
     width: 260px;

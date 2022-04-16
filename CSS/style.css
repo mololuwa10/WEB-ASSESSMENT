@@ -131,7 +131,7 @@ footer {
 .list {
     padding-top: 0.3%;
 }
-
+/* ========= SITE REPORT ==============*/
 .h2-site-report
 {
     color: white;
@@ -158,3 +158,44 @@ footer {
     width: 45%;
     height: 40%;
 }
+
+/* ========BLOG PAGE =========*/
+
+* {
+    box-sizing: border-box;
+}
+
+h4
+{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h2
+{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.column-blog {
+    float: left;
+    width: 95%;
+    padding: 8px;
+    height: 360px;
+    border: 4px solid white;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.blog-row {
+    display: grid;
+    grid-template-rows: 33.5% 36%;
+    padding: 40px;
+    grid-area: auto;
+}
+
+.column-blog:hover
+{
+    border: 3px solid white;
+}   
