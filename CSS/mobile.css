@@ -38,6 +38,7 @@ main {
     font-size: 2em;
     text-shadow: 2px 2px #ff0000;
 }
+
 .lower-nav li {
     list-style: none;
     padding: 15px;
@@ -82,6 +83,7 @@ footer {
     padding-bottom: 20px;
     border-radius: 5px;
 }
+
 .hamburger {
     margin-left: 93%;
     margin-top: 2%;
@@ -241,6 +243,7 @@ form {
     border: 1px solid gray;
     border-radius: 2em;
 }
+
 .myInput2 {
     position: absolute;
     min-width: 22%;
@@ -276,8 +279,8 @@ h4 {
     font-size: 28px;
     font-family: 'Sansita Swashed', cursive;
 }
-.programming-img
-{
+
+.programming-img {
     width: 260px;
     height: 260px;
     border-radius: 140px;
@@ -298,4 +301,11 @@ h4 {
     border-radius: 1%;
     height: 206px;
     margin-left: 0%;
+}
+
+.index-validation-site-report {
+    width: 94%;
+    border-radius: 1%;
+    margin-left: 0%;
+    height: 206px;
 }
