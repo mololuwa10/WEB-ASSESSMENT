@@ -12,6 +12,9 @@ body {
         "main"
         "footer";
 }
+.close-tab {
+    display: none;
+}
 
 nav {
     background-color: gray;
@@ -97,7 +100,12 @@ footer {
     padding-top: 0.3%;
 }
 
-.site-report-p
+.h2-site-report
+{
+    color: white;
+    text-align: center;
+}
+.p-site-report
 {
     color: white;
     margin: 1%;
