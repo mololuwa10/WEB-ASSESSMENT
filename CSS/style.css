@@ -181,6 +181,16 @@ footer {
     align-content: right;
     width: 40%;
 }
+
+.blog-img-site-report {
+    align-content: right;
+    width: 40%;
+}
+
+.blog-validation-site-report {
+    align-content: right;
+    width: 50%;
+}
 /* ========BLOG PAGE =========*/
 
 * {
