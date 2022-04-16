@@ -131,14 +131,20 @@ footer {
 {
     color: white;
     text-align: center;
+    font-family: 'Sansita Swashed', cursive;
 }
 .p-site-report
 {
     color: white;
     margin: 1%;
+    font-size: 20px;
 }
 .index-img-site-report {
     width: 60%;
     align-content: right;
 }
 
+.index-img2-site-report {
+    align-content: right;
+    width: 40%;
+}
