@@ -93,7 +93,7 @@ footer {
     display: block;
 }
 
-#showNav .off {
+#showNav .close-tab {
     display: none;
 }
 
@@ -102,7 +102,7 @@ footer {
 
 }
 
-#showNav:target .off {
+#showNav:target .close-tab {
     display: block;
 }
 
@@ -110,7 +110,7 @@ footer {
     display: block;
 }
 
-.off {
+.close-tab {
     display: block;
     font-size: 30px;
     font-weight: 600;
